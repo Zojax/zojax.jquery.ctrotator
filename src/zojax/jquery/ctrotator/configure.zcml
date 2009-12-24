@@ -1,0 +1,33 @@
+<configure
+   xmlns="http://namespaces.zope.org/zope"
+   xmlns:zojax="http://namespaces.zope.org/zojax">
+
+  <zojax:resourceinclude
+     name="jquery.ctrotator.js"
+     library="jquery-plugins" require="jquery"
+     type="javascript" file="jquery.ctrotator.js" />
+     
+  <zojax:resourceinclude
+     name="jquery.ctrotator.bridge.flickr.js"
+     library="jquery-plugins" require="jquery"
+     type="javascript" file="jquery.ctrotator.bridge.flickr.js" />
+
+  <zojax:resourceinclude
+     name="jquery.ctrotator.bridge.li.js"
+     library="jquery-plugins" require="jquery"
+     type="javascript" file="jquery.ctrotator.bridge.li.js" />
+     
+  <zojax:resourceinclude
+     name="jquery.ctrotator.bridge.rss20.js"
+     library="jquery-plugins" require="jquery"
+     type="javascript" file="jquery.ctrotator.bridge.rss20.js" />
+
+  <!-- styles -->
+  <zojax:resourceinclude
+     name="jquery-ctrotator.css"
+     library="zojax"
+     type="stylesheet"
+     file="jquery.ctrotator.css" filetype="zrt" />
+  
+
+</configure>
